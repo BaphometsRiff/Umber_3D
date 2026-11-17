@@ -1,0 +1,26 @@
+# Rust
+/target/
+
+# Design build outputs (regenerate with design/generate-ui.js)
+/design/ui-script.json
+/design/preview.png
+
+# Old Unreal Engine project files (not part of Umber)
+/.vs/
+/Binaries/
+/Config/
+/Content/
+/DerivedDataCache/
+/Intermediate/
+/Plugins/
+/Saved/
+/Source/
+/.vsconfig
+/*.sln
+/*.uproject
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
