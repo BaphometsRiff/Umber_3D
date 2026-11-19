@@ -1,0 +1,15 @@
+[package]
+name = "umber-mesh"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+base64 = "0.23.1"
+glam = "0.34.3"
+gltf = { version = "1.4.1", default-features = false, features = ["utils", "names", "KHR_materials_emissive_strength"] }
+log = "0.4.35"
+mikktspace = { version = "0.3.0", default-features = false, features = ["glam"] }
+ufbx = "0.11.5"
+zip = { version = "9.6.0", default-features = false, features = ["deflate"] }
