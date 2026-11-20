@@ -1,6 +1,6 @@
 [workspace]
 resolver = "3"
-members = ["crates/umber-core", "crates/umber-mesh"]
+members = ["crates/umber-core", "crates/umber-mesh", "crates/umber-assets"]
 
 [workspace.package]
 version = "0.1.0"

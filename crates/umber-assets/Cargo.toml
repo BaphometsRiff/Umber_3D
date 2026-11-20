@@ -1,0 +1,12 @@
+[package]
+name = "umber-assets"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+exr = "1.74"
+image = { version = "0.25.10", default-features = false, features = ["jpeg", "png", "exr", "hdr", "tga", "bmp", "rayon"] }
+log = "0.4.35"
+zip = { version = "9.6.0", default-features = false, features = ["deflate"] }
